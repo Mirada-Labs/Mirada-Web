@@ -1,0 +1,19 @@
+.media-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: larger;
+    justify-content: space-around;
+    
+    margin-top: 30px;
+}
+
+.media-item img {
+    max-width: 160px;
+    max-height: 120px
+}
+
+.media-desc {
+    text-align: center;
+    font-size: small;
+}

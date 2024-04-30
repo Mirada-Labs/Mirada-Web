@@ -1,0 +1,81 @@
+.launch-container {
+  background-color: #202123;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  min-height: 100vh;
+  width: 100vw;
+  align-items: center;
+}
+
+.launch-logo {
+  width: 300px;
+  margin-top: 8%;
+}
+
+.launch-options-container {
+  display: flex;
+  flex-direction: row;
+  margin-top: 5%;
+}
+
+.launch-options-container a {
+  display: flex;
+}
+
+@media only screen and (max-width: 768px) {
+  .launch-options-container {
+    flex-direction: column;
+  }
+}
+
+.option {
+    display: inline-block;
+    width: 260px; /* Fixed width size */
+    margin: 0 20px; /* Space between the options */
+    padding: 20px;
+    border: 1px solid transparent; /* Invisible border to maintain layout on hover */
+    text-decoration: none;
+    font-size: 22px; /* Adjust the font size as needed */
+    display: block; /* Makes the link fill the container */
+    border-radius: 10px;
+    color: #ccc;
+  }
+
+  .option svg {
+    margin-right: 8px;
+  }
+
+  .option:hover {
+    border-color: #FFFFFF40; /* Visible border on hover */
+    cursor: pointer;
+    background-color: #2d2e30;
+  }
+  .description {
+    font-size: 14px; /* Size of the description text */
+    margin-top: 16px; /* Space between the title and the description */
+  }
+  .arrow {
+    display: inline-block;
+    margin-left: 10px;
+    font-size: 18px; /* Size of the arrow */
+    transition: transform 0.3s ease;
+  }
+  .option:hover .arrow {
+    transform: translateX(5px); /* Arrow animation to the right on hover */
+  }
+
+  .bold {
+    color: #fff;
+    /*font-weight: bold;*/
+  }
+
+  .flex {
+    display: flex;
+  }
+  
+  
+  .status-link {
+    margin-top: auto;
+    margin-bottom: 25px;
+  }

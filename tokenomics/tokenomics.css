@@ -1,0 +1,213 @@
+.soft-edges {
+  border-radius: 15px;
+  /* margin-bottom: 40px; */
+}
+
+/*@media only screen and (min-width: 990px) {
+  .tokenomics-img {
+    width: 400px; 
+    transition:transform 0.25s ease;
+  }
+
+  .tokenomics-img:hover {
+      -webkit-transform:scale(2);
+      transform:scale(2);
+  }
+} */
+
+.tokenomics-item {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-align: left;
+    justify-content: center;
+}
+
+.tokenomics-item img {
+  max-width: 80%;      
+  margin-top: 50px;
+}
+
+.tokenomics-hero {
+  height: 20vh !important;
+  min-height: auto !important;
+}
+
+.tokenomics-title {
+  line-height: 1.4;
+  font-size: 2.4rem;
+  text-wrap: balance;
+  font-weight: 500;
+  max-width: 640px;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.za {
+  display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 60px;
+    row-gap: 60px;
+    align-items: start;
+    padding: 0;
+    margin: 60px 0 0;
+}
+
+.c3 {
+      position: relative;
+    display: grid;
+    grid-gap: 20px;
+    gap: 20px;
+    align-content: start;
+    justify-items: start;
+    padding: 8px 0 8px 23px;
+}
+
+.c3::before {
+      position: absolute;
+    inset: 0 auto 0 0;
+    height: 100%;
+    content: "";
+    border-right: 3px solid #6B32A0;
+    border-radius: 0 4px 4px 0;
+}
+
+.c4 {
+  padding-right: 50px;
+}
+
+.td {
+  color: white !important;
+}
+
+.table {
+  color: white !important;
+}
+
+table th {
+  color: white !important;
+  border-bottom: 2px solid #6B32A0;
+}
+
+.tr {
+  border: 0 solid !important;
+  border-color: transparent !important;
+}
+
+.tbody {
+  border: 0 solid;
+}
+
+.td span {
+  font-weight: bold !important;
+  color: white !important;
+}
+
+.table {
+  border-bottom-width: 1px;
+}
+
+table td {
+  border-top: 1px solid transparent;
+  border-bottom-width: 0px !important;
+}
+
+table th {
+  border-top: 0px !important;
+}
+
+.table h th {
+    border-bottom: 2px solid #6B32A0 !important;
+}
+
+
+.token-table-container {
+  /* background-color: #2C2C2C;  */
+  padding: 1em;
+  border-radius: 10px; /* Optional: adds rounded corners */
+}
+
+.token-table {
+  width: 100%;
+  border-collapse: collapse;
+  color: #FFFFFF; /* Adjust the color to match your site */
+  table-layout: fixed; /* Makes sure the table is not wider than the container */
+}
+
+.token-table td {
+  border: 1px solid #4D4D4D;
+  padding: 0.5em;
+  text-align: left;
+  font-weight: lighter;
+  font-size: small;
+  color: silver;
+}
+
+/* .token-table th {
+  border-right: 1px solid #4d4d4d;
+  border-left: 1px solid #4d4d4d;
+} */
+
+.no-start-border {
+  border-left: 0 !important;
+}
+
+.no-end-border {
+  border-right: 0 !important;
+}
+
+@media only screen and (max-width: 767px) {
+  .za {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .tokenomics-img-utility {
+    display: none;
+  }
+
+  .tokenomics-img-utility-small {
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 0 !important;
+  }
+
+  .small-utility-container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .emissions-item-img {
+    max-width: 100% !important;   
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .tokenomics-img-pie {
+    display: none;
+  }
+
+  .tokenomics-img-utility {
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .tokenomics-img-utility-small {
+    display: none;
+  }
+  
+  .emissions-item-img-total {
+      margin-top: 30px;
+  }
+}
+
+.no-list-decoration {
+ list-style-type: none;   
+}
+
+.emissions-item-img {
+    max-width: 600px;   
+}
+
+.vertical-space {
+    margin-top: 65px;
+}
